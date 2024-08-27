@@ -12,23 +12,31 @@ Before you begin, ensure you have the following installed:
 
 ## Getting Started
 
-Follow these steps to run the application locally:
+## Installation and Usage
+To run this project locally , follow these steps
 
-### 1. Clone the Repository
+1. Clone the repository:
 
-Clone this repository to your local machine using the following command:
+   ```bash
+   git clone https://github.com/mohdsahil36/Accunox-Assignment
+   ```
 
-```bash
-git clone https://github.com/your-username/your-repository-name.git](https://github.com/mohdsahil36/Accunox-Assignment
+2. Navigate to the project directory:
 
-### 2. Move to the project folder
-cd ACCOUNOX-ASSIGNMENT
+   ```bash
+   cd Accunox-Assignment
+   ```
 
-### 3. iNSTALL NODE MODULES
-NPM INSTALL
+3. Install dependencies:
 
-### 4. START THE PRODUCTION BUILD
-NPM RUN DEV
+   ```bash
+   npm install
+   ```
 
-THE SERVER WILL START ON [LOCAL HOST ](http://localhost:4173
-)
+4. Start the development server:
+
+   ```bash
+   npm start
+   ```
+
+5. Open a web browser and navigate to [http://localhost:4173](http://localhost:4173) to view the website.
