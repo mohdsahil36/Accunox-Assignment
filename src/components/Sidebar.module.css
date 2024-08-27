@@ -1,0 +1,68 @@
+/* Sidebar.module.css */
+.add-widget-heading{
+  color: white;
+  font-weight: bold;
+  background-color: rgb(20, 20, 125);
+  text-align: start;
+  padding: 1rem 0.5rem;
+}
+
+.category-name{
+  font-size: 1.35rem;
+  padding-left: 1rem;
+  text-decoration: 2px solid underline;
+  text-underline-offset: 4px;
+  text-decoration-color: rgb(15, 25, 65);
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 40rem;
+  background-color: #f5f5f5;
+  border-left: 1px solid #ccc;
+  z-index: 1000;
+  transition: transform 0.3s ease-in-out;
+  transform: translateX(0);
+}
+
+.widgetList {
+  list-style: none;
+  padding-left: 1rem;
+}
+
+.widgetItem {
+  border: 1px solid #d7cccc;
+  margin:0 2rem 1rem 0;
+  padding: 0.5rem;
+  border-radius: 6px;
+}
+
+.widgetCheckbox {
+  margin-right: 10px;
+}
+
+.sidebarButtons {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 2rem;
+}
+
+.okButton, .cancelButton {
+  margin-right: 10px;
+  padding: 0.5rem 2.5rem;
+  border-radius: 10px;
+}
+
+.okButton {
+  background-color: rgb(15, 25, 65);
+  color: white;
+}
+
+.cancelButton {
+  background-color: white;
+  color: rgb(15, 25, 65);
+}

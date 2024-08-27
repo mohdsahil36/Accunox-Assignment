@@ -1,0 +1,20 @@
+.box {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  background-color: #f9f9f9;
+}
+
+.addButton {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.addButton:hover {
+  background-color: #0056b3;
+}

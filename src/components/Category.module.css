@@ -1,0 +1,9 @@
+.categoryContainer {
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .categoryHeader {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }

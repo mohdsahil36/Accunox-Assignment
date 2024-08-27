@@ -1,0 +1,21 @@
+.navigation{
+    color: rgb(185, 183, 183);
+    margin-bottom: 0;
+}
+.current-page{
+    color: rgb(57,92,124);
+    font-weight: bolder;
+}
+.search-input{
+    width: 100%;
+    padding: 0.35rem;
+    border-radius: 6px;
+    background-color: rgb(240, 245, 250);
+    border: 1px solid #e7e7e7;
+}
+
+.icon{
+    color: rgb(180, 180, 180);
+    border-radius: 10px;
+    font-weight: bold;
+}

@@ -1,0 +1,29 @@
+.widget {
+  position: relative; /* Ensure container can accommodate the chart and legend */
+}
+
+.widgetHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.removeButton {
+  background: #ff4d4d;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 15px;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  top:0;
+}
+
+.chartContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
